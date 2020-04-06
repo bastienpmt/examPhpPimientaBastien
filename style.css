@@ -1,0 +1,125 @@
+body{
+    font-family: 'roboto';
+}
+
+/* HEADER  */
+.navbar img{
+    height: 35px;
+}
+.navbar{
+    background: linear-gradient(93deg, rgba(41,41,41,1) 0%, rgba(0,0,0,1) 100%);
+}
+.dropdow-toggle{
+    outline: 0!important;
+}
+.navbar-brand{
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+/* ADMIN HEADER  */
+
+.adminLogo{
+    letter-spacing: 1px;
+    left: 100px;
+    top: 30px;
+    transform: rotate(-30deg);
+}
+
+/* LOGIN ADMIN  */
+
+.back{
+    height: 90vh;
+}
+.loginForm{
+    width: 70%;
+    height: 70vh;
+}
+.loginForm img{
+    height: 70vh
+}
+input{
+    border: none;
+    border-bottom: 1px solid;
+}
+.submit{
+    background: linear-gradient(93deg, rgba(41,41,41,1) 0%, rgba(0,0,0,1) 100%);
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.submit:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.space{
+    height: 10vh
+}
+.loginForm Form{
+    height: 90%;
+}
+a{
+    text-decoration: none!important;
+}
+a:hover{
+    text-decoration: none!important;
+}
+
+/* PROFIL  */
+.profilChoice{
+    background: linear-gradient(93deg, rgba(57,57,57,0) 0%, rgba(0,0,0,1) 100%);
+    background-color: gray;
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.profilChoice:hover{
+    transition: background-color 0.3s;
+    background-color: rgb(255, 38, 38);
+    cursor: pointer;
+}
+.profilChoice img{
+    height: 20px;
+}
+
+
+/* ADD ARTICLE  */
+
+.input-file-container {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+  }
+.input-file-trigger {
+    display: block;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+  }
+.input-file {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+.input-file-trigger img{
+    height: 30px;
+}
+
+.uploadContainer{
+    width: 209px;
+}
+.loadedImage img{
+    height: 80px;
+}
+
+/* ADMIN HOME  */
+
+.icons img{
+    height: 35px;
+    top: 10px;
+    right: 10px;
+}
